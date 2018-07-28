@@ -11,6 +11,9 @@
 
 [示例代码](https://github.com/googlesamples/android-architecture-components)
 
+## 视频
+[jetpack](https://www.youtube.com/watch?v=r8U5Rtcr5UU&list=PLWz5rJ2EKKc9mxIBd0DRw9gwXuQshgmn2&index=3&t=0s)
+
 + LiveData
 + ViewModel
 + NavigationController
