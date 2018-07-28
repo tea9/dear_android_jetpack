@@ -1,19 +1,21 @@
 package com.example
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.ui.start.StartFragment
+import androidx.appcompat.app.AppCompatActivity
+import com.example.ui.home.HomeFragment
 
-class StartActivity : AppCompatActivity() {
+class HomeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.start_activity)
+        setContentView(R.layout.home_activity)
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                    .replace(R.id.container, StartFragment.newInstance())
+                    .replace(R.id.container, HomeFragment.newInstance())
                     .commitNow()
         }
+
+
     }
 
 }
